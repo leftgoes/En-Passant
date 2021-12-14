@@ -1,7 +1,7 @@
 # En-Passant
 - get all games on https://lichess.org/ with
 
-  0. the king checkmating
+  0. the king delivering checkmate
   1. underpromoting to a bishop with mate
   2. underpromoting to a knight with mate
   3. kingside castling with mate
