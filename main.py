@@ -2,7 +2,6 @@ from datetime import datetime
 import re
 import os
 from time import perf_counter
-import urllib
 
 
 numbers = ['king', 'qbishop', 'qknight', 'kcastle', 'qcastle', 'en_passant']
