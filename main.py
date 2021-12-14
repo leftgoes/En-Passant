@@ -1,10 +1,11 @@
 from datetime import datetime
 import re
-import os.path
+import os
 from time import perf_counter
+import urllib
 
 
-numbers = ['king', 'underpromote to bishop', 'underpromote to knight', 'kingside castle', 'queenside castle', 'en passant']
+numbers = ['king', 'qbishop', 'qknight', 'kcastle', 'qcastle', 'en_passant']
 
 
 class EnPassant:
@@ -30,10 +31,10 @@ class EnPassant:
     def checkmate(moves: str) -> int:
         if moves[-5] != '#':  # not checkmate
             return
-        elif moves[-8:-5] == 'O-O':
-            return 3
         elif moves[-10:-5] == 'O-O-O':
             return 4
+        elif moves[-8:-5] == 'O-O':
+            return 3
 
         last_move = moves[-9:-4]
         if last_move.replace(' ', '')[0] == 'K':  # King checkmate
@@ -48,7 +49,7 @@ class EnPassant:
             offset = 0
             if moves[-11] == '.':  # previous move was black's move
                 offset = 3
-                if moves[-14:-12].isnumeric():
+                if moves[-14:-12].replace(' ', '').isnumeric():
                     offset += len(moves[-14:-12].replace(' ', ''))
             if moves[-13 - offset] == ' ' and moves[-12 - offset] == last_move[2] and (
                     (moves[-11 - offset] == '5' and last_move[3] == '6') or (
@@ -56,57 +57,69 @@ class EnPassant:
                 return 5
 
     @staticmethod
-    def _get(string: str, key: str, length: int) -> str:
-        data = string[string.find(key) + length:]
-        return data[:data.find('"')]
+    def _get(game_data: list[str, ], key: str, length: int) -> str:
+        for s in game_data:
+            if s.startswith(key):
+                return s[length:-2]
 
     def get(self, path: str, log: str = None):
-        d, game, n, start, occurrence = '[Event', '', 0, perf_counter(), [0 for _ in numbers]
+        d, game, n, start, occurrences = '[Event', [], 0, perf_counter(), [0 for _ in numbers]
 
-        if not os.path.isdir(path):
-            with open(path, 'w') as f:
+        if not os.path.isfile(path):
+            with open(path, 'a') as f:
                 f.write('number,path,date,time,white,black,white elo,black elo,time control,event,moves')
+        print(f'\n{self.path!r}\n\r0.00% | {self.progressbar(0)} | 0.00s | unknown | 0/0/{self.total}', end='')
 
-        print(f'Analyzing {self.path!r}\n\r0.00% | {self.progressbar(0)} | 0.00s | unknown | 0/0/{self.total}', end='')
         for i, line in enumerate(open(self.path, encoding="utf-8")):
-            if line.startswith('[Ev') and i != 0:
-                game_data = [j for j in game.splitlines() if j != '']
-                moves = game_data[-1]
+            if (line.startswith('[Ev') and i != 0) or n == self.total - 1:
+                game = list(filter(lambda a: a != '', game))
+                moves = game[-1]
+
                 if len(moves) < 10:
                     continue
 
                 checkmate = self.checkmate(re.sub(r' {[^}]*}', '', moves).replace('...', '.').replace('?', '').replace('!', ''))
                 if checkmate is not None:
-                    occurrence[checkmate] += 1
-                    white = self._get(game, 'White', 7)
-                    black = self._get(game, 'Black', 7)
-                    utc_date = self._get(game, 'UTCDate', 9)
-                    utc_time = self._get(game, 'UTCTime', 9)
-                    w_elo = self._get(game, 'WhiteElo', 10)
-                    b_elo = self._get(game, 'BlackElo', 10)
-                    control = self._get(game, 'TimeControl', 13)
+                    occurrences[checkmate] += 1
+                    white = self._get(game, '[White', 8)
+                    black = self._get(game, '[Black', 8)
+                    utc_date = self._get(game, '[UTCDate', 10)
+                    utc_time = self._get(game, '[UTCTime', 10)
+                    w_elo = self._get(game, '[WhiteElo', 11)
+                    b_elo = self._get(game, '[BlackElo', 11)
+                    control = self._get(game, '[TimeControl', 14)
 
                     with open(path, 'a') as f:
-                        f.write(f'{checkmate},{game_data[1][27:-2]},{utc_date},{utc_time},{white},{black},{w_elo},{b_elo},{control},{game_data[0][8:-2]},{moves}\n')  # checkmate type, path, date, time, white, black, white elo, black elo, time control, event name, moves
+                        f.write(f'\n{checkmate},{game[1][27:-2]},{utc_date},{utc_time},{white},{black},{w_elo},{b_elo},{control},{game[0][8:-2]},{moves}')  # checkmate type, path, date, time, white, black, white elo, black elo, time control, event name, moves
                 n += 1
-                game = line
+                game = [line[:-1]]
             else:
-                game += line
+                game.append(line[:-1])
 
             if i % 250000 == 0:
                 progress = n / self.total
                 elapsed = perf_counter() - start
-                print(f'\r{self.round(100 * progress, 2)}%  {self.progressbar(progress)} | {self.round(elapsed, 2)}s | {self.round(elapsed / (n + 1) * (self.total - n), 2)}s | {"/".join([str(i) for i in occurrence])}//{n}//{self.total}' + 5 * ' ', end='')
-        print(f'\r100.0%  {self.progressbar(1)} | {self.round(perf_counter() - start, 2)} | 0.00s | {"/".join([str(i) for i in occurrence])}//{self.total}' + 15 * ' ', end='')
+                print(f'\r{self.round(100 * progress, 2)}%  {self.progressbar(progress)} | {self.round(elapsed, 2)}s | {self.round(elapsed / (n + 1) * (self.total - n), 2)}s | {"/".join([str(o) for o in occurrences])}//{n}//{self.total}' + 5 * ' ', end='')
+        print(f'\r100.0%  {self.progressbar(1)} | {self.round(perf_counter() - start, 2)} | 0.00s | {"/".join([str(i) for i in occurrences])}//{n}//{self.total}' + 15 * ' ', end='')
 
         if log is not None:
-            if not os.path.isdir(log):
-                with open(log, 'w') as f:
+            if not os.path.isfile(log):
+                with open(log, 'a') as f:
                     f.write('datetime;month;elapsed;games;checkmates')
             with open(log, 'a') as f:
-                f.write(f'\n{datetime.now()};{self.path[-11:-4]};{round(perf_counter() - start, 3)};{n};{",".join([str(i) for i in occurrence])}')
+                f.write(f'\n{datetime.now()};{self.path[-11:-4]};{round(perf_counter() - start, 3)};{n};{",".join([str(i) for i in occurrences])}')
+
+    def folder(self, folder: str, path: str, total: list[int, ]):
+        i = 0
+        for file in os.listdir(folder):
+            if not file.endswith('.pgn'):
+                continue
+            self.path = folder + '\\' + file
+            self.total = total[i]
+            self.get(path, 'data\\log.txt')
+            i += 1
 
 
 if __name__ == '__main__':
-    enpassant = EnPassant(FROM_PGN_FILE, TOTAL_GAMES_NUM)
-    enpassant.get(TO_CSV, LOG_FILE)
+    enpassant = EnPassant(FROM_PGN, TOTAL_GAMES)
+    enpassant.folder(FOLDER, TO_CSV, LIST_TOTAL_GAMES)
