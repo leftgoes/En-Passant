@@ -14,5 +14,11 @@
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
 
+![](https://github.com/leftgoes/En-Passant/blob/main/games/n1sYKpUy.gif?raw=true)
+https://lichess.org/n1sYKpUy
+
+![](https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
+https://lichess.org/BQZgi3HO
+
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/MQu042Yx.gif?raw=true)
 https://lichess.org/MQu042Yx
