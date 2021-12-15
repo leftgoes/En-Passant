@@ -12,7 +12,7 @@
 - all pgn files from https://database.lichess.org/
 
 
-example games:
+some examples:
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
