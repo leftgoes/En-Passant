@@ -8,7 +8,7 @@
   4. queenside castling with mate
   5. en passant mate
     
-my estimate of how common they are from most common to least common
+  my estimate of how common they are from most common to least common
 - all en passant checkmates until 2018.02.28 on lichess with old code
 - all pgn files from https://database.lichess.org/
 
