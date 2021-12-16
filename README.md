@@ -1,4 +1,14 @@
 # En-Passant
+- En-Passant
+- Format
+- Data
+  - Colors
+- games.py
+- gif.py
+- Old code
+- Example Games
+
+## En-Passant
 - get all games (*my estimate from most common to least common*) on [lichess.org](https://lichess.org/) with
 
   0. the king delivering checkmate
