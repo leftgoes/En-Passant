@@ -12,7 +12,7 @@ class GIF:
         self.region = region
 
     def test(self):
-        cv2.imshow('chess', cv2.cvtColor(np.array(pyautogui.screenshot(region=(460, 60, 975, 975))), cv2.COLOR_RGB2BGR))
+        cv2.imshow('chess', cv2.cvtColor(np.array(pyautogui.screenshot(region=self.region)), cv2.COLOR_RGB2BGR))
         cv2.waitKey(0)
 
     def gif(self, n: int = 60, delay: float = 2):
@@ -20,7 +20,7 @@ class GIF:
         print('starting capture')
 
         for i in range(n):
-            s = cv2.cvtColor(np.array(pyautogui.screenshot(region=(460, 60, 975, 975))), cv2.COLOR_RGB2BGR)
+            s = cv2.cvtColor(np.array(pyautogui.screenshot(region=self.region)), cv2.COLOR_RGB2BGR)
             cv2.imwrite(f'{self.folder}\\frm{n - i - 1}.png', s)
 
         print('end capture')
