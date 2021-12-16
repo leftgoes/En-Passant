@@ -31,3 +31,6 @@ https://lichess.org/MQu042Yx
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/C56jMMwJ.gif?raw=true)
 https://lichess.org/C56jMMwJ
+
+![](https://github.com/leftgoes/En-Passant/blob/main/games/IsQiLytk.gif?raw=true)
+https://lichess.org/IsQiLytk
