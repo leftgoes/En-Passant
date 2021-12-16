@@ -13,6 +13,18 @@
 - *2017 and after:* uploaded to Google Drive due to large file size
 
 ## Data
+### games.py
+All of the code I used to make the diagrams is here. Parts of it are quite messy though and I'll have to clean them up in the future.
+- **read:**
+    - *read_games:* read the .csv file
+    - *read_log:* read the log file
+- **p_ratings:** probablity distribution in time interval
+- **games_t:** number of games over time (relative or absolute)
+- **games_sum:** sum of games over time
+- **ratings_sum_t:** sum of rating every year over time (figures get saved in *folder* as .png files)
+- **_from_year:** → **_from_interval:** get the relevant data from time interval
+- **_from_input:** str, int, range, list are converted to list
+
 **Number of games between Jan 2013 and Jan 2018**
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
