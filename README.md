@@ -20,6 +20,12 @@
 The data is written to a .csv file seperated by ,'s.
 
 - *number:* type of checkmate delivered
+  - **0**: *king*
+  - **1**: *qbishop*
+  - **2**: *qknight*
+  - **3**: *kcastle*
+  - **4**: *qcastle*
+  - **5**: *enpassant*
 - *path:* append to 'https://lichess.org/' to get the link of the game
 - *date:* UTC date of the game
 - *time:* UTC time of the game
