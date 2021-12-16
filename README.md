@@ -2,7 +2,7 @@
 - En-Passant
 - Format
 - Data
-  - Colors
+  - Color palette
 - games.py
 - gif.py
 - Old code
@@ -44,9 +44,6 @@ The data is written to a .csv file seperated by ,'s.
 - **moves:** moves in pgn format (some with clock or evaluation data)
 
 ## Data
-**Number of games between Jan 2013 and Jan 2018**
-![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
-
 **Rating probability distribution between Jan 2013 and Jan 2019**
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1.gif?raw=true)
