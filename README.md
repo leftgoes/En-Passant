@@ -1,5 +1,5 @@
 # En-Passant
-- get all games (*my estimate from most common to least common*) on https://lichess.org/ with
+- get all games (*my estimate from most common to least common*) on [lichess.org](https://lichess.org/) with
 
   0. the king delivering checkmate
   1. underpromoting to a bishop with mate
@@ -8,13 +8,15 @@
   4. queenside castling with mate
   5. en passant mate
     
-- all en passant checkmates until 2018.02.28 on lichess with old code
 - all pgn files from https://database.lichess.org/
 
 **Number of games between Jan 2013 and Jan 2018**
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
-## Examples:
+## Old code
+This is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates.
+
+## Examples
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
