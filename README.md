@@ -57,6 +57,9 @@ The data is written to a .csv file seperated by ,'s.
 **Number of games per month**
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-g.png?raw=true)
+
+**Number of games per month per total**
+
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-gpm.png?raw=true)
 
 ### Color palette
