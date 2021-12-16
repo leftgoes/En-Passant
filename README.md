@@ -20,7 +20,7 @@
 The colors were chosen such that their inverse would be similar to the lichess color palette (*this is just because matplotlib draws a white background as default but I want it to be black*)
 
 <p align="center">
-  <img src="http://https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png?raw=true" />
+  <img src="https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png" />
 </p>
 
 #0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
