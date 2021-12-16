@@ -21,13 +21,13 @@ The data is written to a .csv file seperated by ,'s.
 - *path:* append to 'https://lichess.org/' to get the link of the game
 - *date:* UTC date of the game
 - *time:* UTC time of the game
-- *white
-- black
-- white elo
-- black elo
-- time control
-- event
-- moves:* moves in pgn format (some with clock or evaluation data)
+- *white*
+- *black*
+- *white elo*
+- *black elo*
+- *time control*
+- *event*
+- *moves:* moves in pgn format (some with clock or evaluation data)
 
 ## Old code
 [This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
