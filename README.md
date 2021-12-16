@@ -40,7 +40,7 @@ The data is written to a .csv file seperated by ,'s.
 ## Old code
 [This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
 
-## Examples
+## Example Games
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
