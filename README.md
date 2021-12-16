@@ -16,8 +16,8 @@
 ### games.py
 All of the code I used to make the diagrams is here. Parts of it are quite messy though and I'll have to clean them up in the future.
 - **read:**
-    - *read_games:* read the .csv file
-    - *read_log:* read the log file
+    - **read_games:** read the .csv file
+    - **read_log:** read the log file
 - **p_ratings:** probablity distribution in time interval
 - **games_t:** number of games over time (relative or absolute)
 - **games_sum:** sum of games over time
