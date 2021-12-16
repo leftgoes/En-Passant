@@ -23,17 +23,17 @@ https://lichess.org/n1sYKpUy
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
 https://lichess.org/BQZgi3HO
 
-![](https://github.com/leftgoes/En-Passant/blob/main/games/15yWW38A.gif?raw=true)
-https://lichess.org/15yWW38A
-
-![](https://github.com/leftgoes/En-Passant/blob/main/games/MQu042Yx.gif?raw=true)
-https://lichess.org/MQu042Yx
-
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/C56jMMwJ.gif?raw=true)
 https://lichess.org/C56jMMwJ
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/IsQiLytk.gif?raw=true)
 https://lichess.org/IsQiLytk
+
+![](https://github.com/leftgoes/En-Passant/blob/main/games/15yWW38A.gif?raw=true)
+https://lichess.org/15yWW38A
+
+![](https://github.com/leftgoes/En-Passant/blob/main/games/MQu042Yx.gif?raw=true)
+https://lichess.org/MQu042Yx
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/zC0viWG7.gif?raw=true)
 https://lichess.org/zC0viWG7
