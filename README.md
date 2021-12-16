@@ -48,6 +48,7 @@ The data is written to a .csv file seperated by ,'s.
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
 **Rating probability distribution between Jan 2013 and Jan 2019**
+
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1.gif?raw=true)
 
 ### Colors
