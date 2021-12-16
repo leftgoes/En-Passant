@@ -44,7 +44,7 @@ The data is written to a .csv file seperated by ,'s.
 - **moves:** moves in pgn format (some with clock or evaluation data)
 
 ## Data
-# Jan 2013 - Dec 2018
+### Jan 2013 - Dec 2018
 **Rating probability distribution**
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1.gif?raw=true)
