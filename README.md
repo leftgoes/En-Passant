@@ -40,6 +40,7 @@ All of the code I used to make the diagrams is here. Parts of it are quite messy
     - **read_games:** read the .csv file
     - **read_log:** read the log file
 - **p_ratings:** probablity distribution in time interval
+    - **_fit:** fit data with a gaussian
 - **games_t:** number of games over time (relative or absolute)
 - **games_sum:** sum of games over time
 - **ratings_sum_t:** sum of rating every year over time (figures get saved in *folder* as .png files)
