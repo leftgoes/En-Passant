@@ -14,7 +14,7 @@
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
 ## Old code
-This is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates.
+[This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates since 28.02.2018
 
 ## Examples
 
@@ -24,7 +24,7 @@ https://lichess.org/qt0fCmCF
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/n1sYKpUy.gif?raw=true)
 https://lichess.org/n1sYKpUy
 
-![]https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
 https://lichess.org/BQZgi3HO
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/C56jMMwJ.gif?raw=true)
