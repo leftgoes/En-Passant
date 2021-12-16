@@ -54,7 +54,7 @@ The data is written to a .csv file seperated by ,'s.
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-s.png?raw=true)
 
-**Number of games over time**
+**Number of games per month**
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-g.png?raw=true)
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-gpm.png?raw=true)
