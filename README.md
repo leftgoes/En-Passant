@@ -51,7 +51,7 @@ All of the code I used to make the diagrams is here. Parts of it are quite messy
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
 ### Colors
-The colors were chosen such that their inverse would be similar to the lichess color palette (*this is just because matplotlib draws a white background as default but I want it to be black*)
+The colors were chosen such that their inverse would be similar to the default lichess board colors (*this is just because matplotlib draws a white background as default but I want it to be black*)
 
 <p align="center"><img src="https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png" /></p>
 
