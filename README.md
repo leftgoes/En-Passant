@@ -10,6 +10,7 @@
     
 - all pgn files from https://database.lichess.org/
 
+## Figures
 **Number of games between Jan 2013 and Jan 2018**
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
