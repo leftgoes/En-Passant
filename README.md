@@ -11,8 +11,10 @@
 - all en passant checkmates until 2018.02.28 on lichess with old code
 - all pgn files from https://database.lichess.org/
 
+number of games between 2013 and 2018
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
-some examples:
+some example games:
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
