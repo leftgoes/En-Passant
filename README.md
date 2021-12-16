@@ -9,7 +9,7 @@
   5. en passant mate
     
 - all pgn files from https://database.lichess.org/
-- *until 2016 inclusive:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
+- *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
 - *2017 and after:* uploaded to Google Drive due to large file size
 
 ## Figures
