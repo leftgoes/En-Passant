@@ -12,6 +12,27 @@
 - *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
 - *2017 and after:* uploaded to Google Drive due to large file size
 
+## Format
+The data is written to a .csv file seperated by ,'s.
+
+- **number:** type of checkmate delivered
+  - 0: *king*
+  - 1: *qbishop*
+  - 2: *qknight*
+  - 3: *kcastle*
+  - 4: *qcastle*
+  - 5: *enpassant*
+- **path:** append to 'https://lichess.org/' to get the link of the game
+- **date:** UTC date of the game
+- **time:** UTC time of the game
+- **white**
+- **black**
+- **white elo**
+- **black elo**
+- **time control**
+- **event**
+- **moves:** moves in pgn format (some with clock or evaluation data)
+
 ## Data
 ### games.py
 All of the code I used to make the diagrams is here. Parts of it are quite messy though and I'll have to clean them up in the future.
@@ -36,27 +57,6 @@ The colors were chosen such that their inverse would be similar to the lichess c
 #0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
 
 #f0d9b5, #b58863, #b57563, #b5534b, #ca6565, #ff9f9f
-
-## Format
-The data is written to a .csv file seperated by ,'s.
-
-- **number:** type of checkmate delivered
-  - 0: *king*
-  - 1: *qbishop*
-  - 2: *qknight*
-  - 3: *kcastle*
-  - 4: *qcastle*
-  - 5: *enpassant*
-- **path:** append to 'https://lichess.org/' to get the link of the game
-- **date:** UTC date of the game
-- **time:** UTC time of the game
-- **white**
-- **black**
-- **white elo**
-- **black elo**
-- **time control**
-- **event**
-- **moves:** moves in pgn format (some with clock or evaluation data)
 
 ## Old code
 [This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
