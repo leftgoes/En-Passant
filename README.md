@@ -34,7 +34,19 @@ The data is written to a .csv file seperated by ,'s.
 - **moves:** moves in pgn format (some with clock or evaluation data)
 
 ## Data
-### games.py
+**Number of games between Jan 2013 and Jan 2018**
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
+
+### Colors
+The colors were chosen such that their inverse would be similar to the default lichess board colors (*this is just because matplotlib draws a white background as default but I want it to be black*)
+
+<p align="center"><img src="https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png" /></p>
+
+#0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
+
+#f0d9b5, #b58863, #b57563, #b5534b, #ca6565, #ff9f9f
+
+## games.py
 All of the code I used to make the diagrams is here. Parts of it are quite messy though and I'll have to clean them up in the future.
 - **read:**
     - **read_games:** read the .csv file
@@ -47,17 +59,10 @@ All of the code I used to make the diagrams is here. Parts of it are quite messy
 - **_from_year:** → **_from_interval:** get the relevant data from time interval
 - **_from_input:** str, int, range, list are converted to list
 
-**Number of games between Jan 2013 and Jan 2018**
-![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
-
-### Colors
-The colors were chosen such that their inverse would be similar to the default lichess board colors (*this is just because matplotlib draws a white background as default but I want it to be black*)
-
-<p align="center"><img src="https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png" /></p>
-
-#0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
-
-#f0d9b5, #b58863, #b57563, #b5534b, #ca6565, #ff9f9f
+## gif.py
+This code was used to make rapid screenshots of the [lichess board](https://lichess.org/analysis). Those screenshots were then converted to a GIF with [GIMP](https://www.gimp.org/).
+- **test:** show a screenshot of *region*
+- **gif:** save screenshots to *folder*
 
 ## Old code
 [This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
