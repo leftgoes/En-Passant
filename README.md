@@ -12,30 +12,30 @@
 - all pgn files from https://database.lichess.org/
 
 number of games between Jan 2013 and Jan 2018
-![If](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
 some example games:
 
-![you](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
 
-![can](https://github.com/leftgoes/En-Passant/blob/main/games/n1sYKpUy.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/n1sYKpUy.gif?raw=true)
 https://lichess.org/n1sYKpUy
 
-![read]https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
+![]https://github.com/leftgoes/En-Passant/blob/main/games/BQZgi3HO.gif?raw=true)
 https://lichess.org/BQZgi3HO
 
-![this](https://github.com/leftgoes/En-Passant/blob/main/games/C56jMMwJ.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/C56jMMwJ.gif?raw=true)
 https://lichess.org/C56jMMwJ
 
-![you](https://github.com/leftgoes/En-Passant/blob/main/games/IsQiLytk.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/IsQiLytk.gif?raw=true)
 https://lichess.org/IsQiLytk
 
-![won't](https://github.com/leftgoes/En-Passant/blob/main/games/15yWW38A.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/15yWW38A.gif?raw=true)
 https://lichess.org/15yWW38A
 
-![see](https://github.com/leftgoes/En-Passant/blob/main/games/MQu042Yx.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/MQu042Yx.gif?raw=true)
 https://lichess.org/MQu042Yx
 
-![gifs](https://github.com/leftgoes/En-Passant/blob/main/games/zC0viWG7.gif?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/games/zC0viWG7.gif?raw=true)
 https://lichess.org/zC0viWG7
