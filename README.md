@@ -16,6 +16,13 @@
 **Number of games between Jan 2013 and Jan 2018**
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
+**Colors**
+The colors were chosen such that their inverse would be similar to the lichess color palette (*this is just because matplotlib draws a white background as default but I want it to be black*)
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/colors.png?raw=true)
+#0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
+
+#f0d9b5, #b58863, #b57563, #b5534b, #ca6565, #ff9f9f
+
 ## Format
 The data is written to a .csv file seperated by ,'s.
 
