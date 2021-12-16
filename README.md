@@ -91,6 +91,9 @@ https://lichess.org/IsQiLytk
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/qt0fCmCF.gif?raw=true)
 https://lichess.org/qt0fCmCF
 
+![](https://github.com/leftgoes/En-Passant/blob/main/games/J7hU9ZhQ.gif?raw=true)
+https://lichess.org/J7hU9ZhQ
+
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/n1sYKpUy.gif?raw=true)
 https://lichess.org/n1sYKpUy
 
