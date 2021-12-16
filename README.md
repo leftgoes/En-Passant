@@ -12,7 +12,7 @@
 - *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
 - *2017 and after:* uploaded to Google Drive due to large file size
 
-## Figures
+## Data
 **Number of games between Jan 2013 and Jan 2018**
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2018-1.png?raw=true)
 
