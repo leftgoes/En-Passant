@@ -6,7 +6,7 @@
 - games.py
 - gif.py
 - Old code
-- Example Games
+- Some Games
 
 ## En-Passant
 - get all games (*my estimate from most common to least common*) on [lichess.org](https://lichess.org/) with
@@ -77,7 +77,7 @@ This code was used to make rapid screenshots of the [lichess board](https://lich
 ## Old code
 [This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
 
-## Example Games
+## Some Games
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/games/yTHX1AmK.gif?raw=true)
 https://lichess.org/yTHX1AmK
