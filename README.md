@@ -51,6 +51,10 @@ The data is written to a .csv file seperated by ,'s.
 
 ![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1.gif?raw=true)
 
+**Number of games over time**
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-g.png?raw=true)
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/2013-1-2019-1-gpm.png?raw=true)
+
 ### Colors
 The colors were chosen such that their inverse would be similar to the default lichess board colors (*this is just because matplotlib draws a white background as default but I want it to be black*)
 
