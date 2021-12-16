@@ -47,7 +47,7 @@ def is_enpassant_checkmate(moves):
             offset = 0
             if moves[-11] == '.':  # previous move was black's move
                 offset = 3
-                if is_int(moves[-14:-12]) is True:
+                if is_int(moves[-14:-12]) == True:
                     offset += len(moves[-14:-12].replace(' ', ''))
             if (moves[-13 - offset] == ' ') and (moves[-12 - offset] == last_move[2]) and ((moves[-11 - offset] == '5' and last_move[3] == '6') or (moves[-11 - offset] == '4' and last_move[3] == '3')): # previous move was pawn moving 2 squared next to pawn delivering checkmate
                 return True
