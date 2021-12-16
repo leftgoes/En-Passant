@@ -1,12 +1,12 @@
 # En-Passant
 - get all games (*my estimate from most common to least common*) on [lichess.org](https://lichess.org/) with
 
-  0 the king delivering checkmate
-  1 underpromoting to a bishop with mate
-  2 underpromoting to a knight with mate
-  3 kingside castling with mate
-  4 queenside castling with mate
-  5 en passant mate
+  0. the king delivering checkmate
+  1. underpromoting to a bishop with mate
+  2. underpromoting to a knight with mate
+  3. kingside castling with mate
+  4. queenside castling with mate
+  5. en passant mate
     
 - all pgn files from https://database.lichess.org/
 - *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
