@@ -47,10 +47,6 @@ class Games:
         return [NUMBERS.index(i) if type(i) is str else i for i in inp]
 
     @staticmethod
-    def month_from_datetime(d: datetime) -> int:
-        return 12 * (d.year - 2013) + d.month - 1
-
-    @staticmethod
     def get_param(result):
         parameters, report = [['variable', 'value', '+/-']], result.fit_report()
         for parm in report[report.find('[[Variables]]') + 18:report.find('[[Correlations]]')].replace('\n', '').split(
