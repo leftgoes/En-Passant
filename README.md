@@ -19,7 +19,7 @@
   4. *qcastle* queenside castling with mate
   5. *enpassant* en passant mate
     
-- all pgn files from https://database.lichess.org/
+- all pgn files from [lichess database](https://database.lichess.org/)
 - *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
 - *all data:* uploaded to [Google Drive](https://drive.google.com/drive/folders/1CwcH0tKB3Gq-M4ZNeDIyZ1CfaqueTHOo?usp=sharing) due to large files
 
