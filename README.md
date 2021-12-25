@@ -33,7 +33,7 @@ The data is written to a .csv file seperated by ,'s.
   - 3: *kcastle*
   - 4: *qcastle*
   - 5: *enpassant*
-- **path:** append to 'https://lichess.org/' to get the link of the game
+- **path:** append to 'https://lichess.org/' to get full url
 - **date:** UTC date of the game
 - **time:** UTC time of the game
 - **white**
