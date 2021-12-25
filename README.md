@@ -41,7 +41,7 @@ The data is written to a .csv file seperated by ,'s.
 - **white elo**
 - **black elo**
 - **time control**
-- **event**
+- **event:** type of the game
 - **moves:** moves in pgn format (some with clock or evaluation data)
 
 ## Data
