@@ -98,12 +98,12 @@ All of the code I used to make the diagrams is here. Parts of it are quite messy
 - **_from_input:** str, int, range, list are converted to list
 
 # gif.py
-This code was used to make rapid screenshots of the [lichess board](https://lichess.org/analysis). Those screenshots were then converted to a GIF with [GIMP](https://www.gimp.org/).
+This code was used to make rapid screenshots of the [lichess board](https://lichess.org/analysis). Those screenshots were then converted to a GIF with [GIMP](https://www.gimp.org/) for [some games](https://github.com/leftgoes/En-Passant/blob/main/README.md#some-games).
 - **test:** show a screenshot of *region*
 - **gif:** save screenshots to *folder*
 
 # Old code
-[This](https://github.com/leftgoes/En-Passant/tree/main/old) is (*in my opinion more ugly*) code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
+[This](https://github.com/leftgoes/En-Passant/tree/main/old) is code without OOP from July 2021. There I had only implemented en passant mates. I searched for all en passant mates until 28.02.2018
 
 # Some Games
 
