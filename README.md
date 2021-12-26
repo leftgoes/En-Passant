@@ -23,7 +23,7 @@
     
 - all pgn files from [lichess database](https://database.lichess.org/)
 - *until 2016:* under [En-Passant/data](https://github.com/leftgoes/En-Passant/tree/main/data) in .csv format
-- *all data:* uploaded to [Google Drive](https://drive.google.com/drive/folders/1CwcH0tKB3Gq-M4ZNeDIyZ1CfaqueTHOo?usp=sharing) due to large files
+- *all data:* uploaded to [Google Drive](https://drive.google.com/drive/folders/1CwcH0tKB3Gq-M4ZNeDIyZ1CfaqueTHOo?usp=sharing)
 
 # Format
 The data is written to a .csv file seperated by ,'s.
