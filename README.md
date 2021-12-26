@@ -48,14 +48,14 @@ The data is written to a .csv file seperated by ,'s.
 ## example
 0,csrzdu82,2013.01.01,20:23:57,Trebizonde,FF4,1715,1508,300+10,Rated Classical game,1. e4 b6 2. d4 ...
 
-*0*: the king delivering checkmate
-*url*: https://lichess.org/csrzdu82
-*played (UTC)*: 2013.01.01 20:23:57
-*white:* Trebizonde, 1715
-*black:* FF4, 1508
-*time control:* 300+10 or 5+10
-*event:* Rated Classical game
-*moves:* 1. e4 b6 2. d4 ...
+- *0*: the king delivering checkmate
+- *url*: https://lichess.org/csrzdu82
+- *played (UTC)*: 2013.01.01 20:23:57
+- *white:* Trebizonde, 1715
+- *black:* FF4, 1508
+- *time control:* 300+10 or 5+10
+- *event:* Rated Classical game
+- *moves:* 1. e4 b6 2. d4 ...
 
 # Data
 ## Jan 2013 - Dec 2018
