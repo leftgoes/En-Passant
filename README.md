@@ -1,4 +1,4 @@
-![](https://github.com/leftgoes/En-Passant/blob/main/figures/logo.gif)
+![# En-Passant](https://github.com/leftgoes/En-Passant/blob/main/figures/logo.png)
 - En-Passant
 - Format
 - Data
@@ -9,7 +9,7 @@
 - Old code
 - Some Games
 
-## En-Passant
+![](https://github.com/leftgoes/En-Passant/blob/main/figures/logo.gif)
 - get all games (*my estimate from most common to least common*) on [lichess.org](https://lichess.org/) with
 
   0. *king* the king delivering checkmate
