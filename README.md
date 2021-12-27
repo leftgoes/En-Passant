@@ -1,4 +1,4 @@
-![](/blob/main/figures/logo.png)
+![](./blob/main/figures/logo.png)
 
 - En-Passant
 - Format
