@@ -1,4 +1,4 @@
-![](https://github.com/leftgoes/En-Passant/blob/main/figures/logo.png)
+![](blob/main/figures/logo.png)
 
 - En-Passant
 - Format
