@@ -76,11 +76,9 @@ The data is written to a .csv file seperated by ,'s.
 ![](figures/2013-1-2019-1-gpm.png?raw=true)
 
 ## Color palette
-The colors were chosen such that their inverse would be similar to the default lichess board colors (*this is just because matplotlib draws a white background as default but I want it to be black*)
+The colors are based on the [lichess chessboard](https://lichess.org/analysis).
 
 <p align="center"><img src="figures/colors.png" /></p>
-
-#0f264a, #13283a, #4a8a9c, #184144, #359a9a, #006060
 
 #f0d9b5, #b58863, #b57563, #b5534b, #ca6565, #ff9f9f
 
