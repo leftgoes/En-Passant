@@ -15,17 +15,15 @@ class GIF:
         cv2.imshow('chess', cv2.cvtColor(np.array(pyautogui.screenshot(region=self.region)), cv2.COLOR_RGB2BGR))
         cv2.waitKey(0)
 
-    def gif(self, n: int = 60, delay: float = 2):
+    def get(self, n: int = 60, delay: float = 2):
         time.sleep(delay)
         print('starting capture')
-
         for i in range(n):
             s = cv2.cvtColor(np.array(pyautogui.screenshot(region=self.region)), cv2.COLOR_RGB2BGR)
             cv2.imwrite(f'{self.folder}\\frm{n - i - 1}.png', s)
-
         print('end capture')
 
 
 if __name__ == '__main__':
-    gif = GIF(r'C:\Python\En Passant\images')
-    gif.gif()
+    gif = GIF(FOLDER)
+    gif.get()
